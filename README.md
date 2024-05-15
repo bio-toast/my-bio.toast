@@ -16,6 +16,12 @@ Have fun customizing it to your liking!
 ## Configure bio.toast.json
 - `name`: Your name, leave it empty if you want to use your GitHub name.
 - `description`: About yourself, leave it empty if you want to use your GitHub profile descriptions.
+- `pins`: Array of element IDs to be seen on top. You can use this to set the order of elements.
+- `customWidgets`: Array of objects that is consisted of:
+    - `id`: ID of the widget element. 
+    - `type`: `image` | `img` | `text` | `p` | `iframe`, defaults to `img` if empty
+    - `src`: Widget source URL. (for `img` and `iframe`)
+    - `alt`: `alt` attribute of widget. (`title` attribute if `iframe`)
 - `pronouns`: Your pronouns. ex\) he/him
 - `themeColor`: Embed color.
 - `embedImage`: Embed image.
