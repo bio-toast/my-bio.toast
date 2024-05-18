@@ -19,7 +19,7 @@ Have fun customizing it to your liking!
 - `pins`: Array of element IDs to be seen on top. You can use this to set the order of elements.
 - `customWidgets`: Array of objects that is consisted of:
     - `id`: ID of the widget element. 
-    - `type`: `image` | `img` | `text` | `p` | `iframe`, defaults to `img` if empty
+    - `type`: `image` | `img` | `text` | `p` | `iframe` | `embed`, defaults to `img` if empty
     - `src`: Widget source URL. (for `img` and `iframe`)
     - `alt`: `alt` attribute of widget. (`title` attribute if `iframe`)
 - `pronouns`: Your pronouns. ex\) he/him
